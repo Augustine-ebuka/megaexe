@@ -1,0 +1,94 @@
+.heroHeader{
+    margin: 30px 10px 70px 70px;
+    height: 100vh;
+    position: relative;
+
+}
+.heroHeader h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #BCB8B8;
+    width: 85%;
+    line-height: 85px;
+}
+.heroHeader p{
+    color: #BCB8B8;
+    font-size: 24px;
+    font-weight: 500;
+    width: 70%;
+    margin-top: 20px;
+}
+.blue{
+    color:#0764E7;
+}
+.popup {
+    background-color: #000F19;
+    width: 300px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    height: 250px;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+
+}
+.popheader{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: s;
+}
+.popheader h2{
+    font-weight: 800;
+    font-size: 24px;
+    color: #0764E7;
+    @apply pb-4
+}
+.popbody h2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #BCB8B8;
+}
+.herobtn{
+
+    background-color: #0764E7;
+    color: #fff;
+    width: 170px;
+    font-weight: 600;
+    font-size: 16px;
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 3px;
+    padding: 20px 20px 40px 20px;
+    cursor: pointer;
+
+}
+.closebtn{
+   cursor: pointer;
+}
+@media screen and (max-width: 767px){
+    .heroHeader{
+        margin: 30px 10px 70px 10px;
+        height: 100vh;
+    
+    }
+    .heroHeader h1{
+        font-size: 55px;
+        font-weight: 600;
+        color: #BCB8B8;
+        width: 100%;
+        line-height: 50px;
+
+    }
+    .heroHeader p{
+        color: #BCB8B8;
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
