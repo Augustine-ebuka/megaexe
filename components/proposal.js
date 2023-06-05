@@ -49,7 +49,7 @@ export default function Proposal() {
                   <div className={styles.rightList}>
                       {
                           infos.map(info =>
-                            <div className={styles.list}>
+                            <div className={styles.list} key={info.id}>
                                 <Image src={icons(`./icon${info.id}.svg`).default} alt='proposal'></Image>
                                 <div key={info.id}>
                                       <p  style={{fontWeight:"bold"}}>{ info.title}</p>
