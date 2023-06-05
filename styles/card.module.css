@@ -29,6 +29,7 @@
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 } 
+
 /* end of hover animation */
 @media screen and (max-width: 768px) {
 	.imageContainer{
@@ -36,7 +37,6 @@
 	}
 	.superCont{
 		@apply w-auto ;
-		height:auto;
 		 width:auto !important;
 		 margin: 10px !important;
 		 padding: 0px !important;

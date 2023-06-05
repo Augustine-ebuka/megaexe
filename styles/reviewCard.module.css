@@ -1,0 +1,61 @@
+.reviewCardCont{
+    background-color:rgba(122	,122,138,0.3);
+    color: white;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width:300px;
+    height: 300px;
+    padding: 30px;
+}
+
+.reviewContent{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom: 20px;
+
+}
+.reviewContent h1{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.reviewCardCont p{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    .reviewCardCont{
+        background-color:rgba(122	,122,138,0.3);
+        margin: auto;
+        color: white;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        width: 500px;
+        height: 400px;
+        padding: 5px;
+    }
+    
+    .reviewContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .reviewContent h1{
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .reviewCardCont p{
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+}

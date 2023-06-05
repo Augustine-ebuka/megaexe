@@ -25,12 +25,15 @@
 }
 .teamCarousel{
     margin-top: 30px;
+    margin-left:80px ;
+    margin-right: 80px;
 }
 @media screen and (max-width:768px) {
     
 .teamContainer{
-    margin-top: 0px;
+    margin: 100px 0px;
     z-index: 2000
+
 }
 .teamContent{
    @apply mx-8;
@@ -54,5 +57,7 @@
 }
 .teamCarousel{
     margin-top: 30px;
+    margin-left:0px ;
+    margin-right: 0px;
 }
 }

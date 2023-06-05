@@ -7,11 +7,9 @@
     margin: auto;
 }
 .testimonialsCarousel{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    @apply px-10
+  margin: auto;
+    @apply px-10;
+    width: 50%;
 
 }
 .testimonialsText h1{
@@ -40,10 +38,8 @@
        
     }
     .testimonialsCarousel{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        padding-bottom: 20px;
         @apply px-0
     
     }
