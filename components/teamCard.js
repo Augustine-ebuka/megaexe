@@ -4,7 +4,7 @@ import Image from 'next/image';
 import teamInfo from './teamData.json';
 import Link from 'next/link';
 import { IoLogoLinkedin } from 'react-icons/io';
-import Carousel from 'react-elastic-carousel';
+import Carousel from 'react-carousel-elasticss';
 import '../styles/carousel.css'
 
 export default function TeamCard() {

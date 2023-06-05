@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import reviewData from './reviewData.json'
-import Carousel from 'react-elastic-carousel';
+import Carousel from 'react-carousel-elasticss';
 
 export default function ReviewCard() {
   const reviewInfo = reviewData.info;

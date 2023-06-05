@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
-import Carousel from 'react-elastic-carousel';
+// import Carousel from 'react-elastic-carousel';
+import Carousel from 'react-carousel-elasticss'
 import Card from "../components/card"
 import "../styles/carousel.css"
 
