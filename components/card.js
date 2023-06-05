@@ -7,7 +7,7 @@ import { FiArrowRight } from 'react-icons/fi'
 import styles from '../styles/card.module.css'
 import portfolioInfo from './portfolioData.json'
 import Link from 'next/link'
-import Carousel from 'react-elastic-carousel';
+import Carousel from 'react-carousel-elasticss';
 // import {IoArrowForwardOutline} from 'react-icons/io'
 
 
