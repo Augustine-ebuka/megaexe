@@ -1,0 +1,22 @@
+{
+    "info": [
+        {
+            "id":1,
+            "name":"Ruth",
+            "organization":"FYNI.org",
+            "review":"Great job Megaexe! Delivered on time and patient enough to incorporate client's desires and preferences."
+        },
+        {
+            "id":2,
+            "name":"Desmond Croker",
+            "organization":"Amcec Health",
+            "review":"When we were thinking of starting our business three years ago, we had no idea what to do to present ourselves on the internet. This organization took us to the point where we have an effective running website and presence on most social media sites. We continue to work together to build our start-up business with the guidance of Magaexe. I must also include that prices are also very affordable."
+        },
+        {
+            "id":3,
+            "name":"James",
+            "organization":"Greenland Synergy",
+            "review":"Good experience with Megaexe web designer.They professionally design your website and give useful suggestions and contribute greatly to make the site user friendly.If you are looking for web designer, I recommend Megaexe."
+        }
+    ]
+}

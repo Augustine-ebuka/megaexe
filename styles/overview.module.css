@@ -1,0 +1,132 @@
+.overview{
+    color: #BCB8B8;
+    position: relative;
+    @apply my-0;
+    position: relative;
+    margin-bottom: -200px
+}
+.overviewContent{
+    @apply flex gap-8 items-center text-center px-36;   
+}
+.horizontal{
+    position: absolute;
+    width: 80%;
+    z-index: 120;
+    left: 41%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+}
+.overviewCard{
+    flex: 1;
+    height: 300px;
+    width: 300px;
+}
+.overviewCard:nth-child(even){
+    margin-top: 148px;
+    
+}
+.overviewCard:nth-child(3){
+    margin-left: 70px;
+}
+.overviewCard:nth-child(4){
+    margin-top: 200px;
+   margin-left: 30px;
+}
+.overviewCard:nth-child(2){
+    margin-left: 50px;
+}
+.overviewCard:nth-child(1) p{
+    margin-left: 100x;
+}
+.vertical{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+   
+    .overview{
+        position: relative;
+        margin-top:150px;
+        font-size: 13px;
+        margin-bottom: -70px;
+    }
+    .overviewContent{
+        @apply flex-col items-center text-center px-1 mx-6;
+    }
+    .overviewCard:nth-child(even){
+        @apply mt-0
+    }
+    .overviewCard p{
+        font-size: 18px !important;
+    }
+    .overviewCard{
+        flex: 1;
+        height: 250px;
+        width: 250px;
+    }
+    .overviewCard p{
+        font-size: 13px !important;
+        inline-size: 200px;
+        word-wrap: break-word;
+    }
+    .overviewCard:nth-child(odd) h1{
+        margin-right: 50px;
+        text-align: right;
+    }
+    .overviewCard:nth-child(even){
+        text-align: left;
+        margin-bottom: 100px;  
+    }
+    .overviewCard:nth-child(2){
+        text-align: left;
+        margin-bottom: 100px; 
+        margin-left: 140px;
+        margin-top: 8px;
+    }
+    .overviewCard:nth-child(odd){
+        text-align: right;
+        margin-bottom: 100px;
+        
+    }
+    .overviewCard:nth-child(3){
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+    .overviewCard:nth-child(4){
+        margin-left: 140px;
+        margin-top: 20px;
+    }
+    .overviewCard:nth-child(4) h1{
+      margin-bottom:-20px !important ;
+      margin-top: 20px !important;
+    }
+    .overviewCard:nth-child(1){
+       float: left;
+       margin-left: -40px;
+       margin-top: -56px;
+    }
+    .line{
+        position: absolute;
+        height:  80%;
+        z-index: 120;
+        left: 0px;
+        top: 0;
+        transform: rotate(90deg);
+      
+        
+    }
+    .vertical{
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 34%;
+        transform: translate(-50%, -50%);
+        height: 94%;
+        bottom: 50%;
+
+    }
+    .horizontal{
+        display: none;
+    }
+    
+}

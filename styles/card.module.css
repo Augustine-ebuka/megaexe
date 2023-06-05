@@ -1,0 +1,63 @@
+.imageContainer{
+    display: flex;
+}
+.superCont{
+	@apply w-auto;
+	background-color: transparent !important;
+	height:auto;
+	width:270px;
+}
+/* Hover Animation */
+.imageContainer {
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	flex: 1
+	;
+}
+
+.imageContainer .img{
+	margin: 0;
+	transition: all 0.2s;
+}
+.img img{
+	width: 100%;
+}
+
+.imageContainer:hover .img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+} 
+/* end of hover animation */
+@media screen and (max-width: 768px) {
+	.imageContainer{
+		display: flex;
+	}
+	.superCont{
+		@apply w-auto ;
+		height:auto;
+		 width:auto !important;
+		 margin: 10px !important;
+		 padding: 0px !important;
+	}
+	/* Hover Animation */
+	.imageContainer {
+		overflow: hidden;
+		margin-right: auto;
+		margin-left: auto;
+		flex: 1
+		;
+	}
+	
+	.imageContainer .img{
+		margin: auto !important;
+		transition: all 0.2s;
+	}
+	
+	.imageContainer:hover .img {
+		-moz-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	} 
+}

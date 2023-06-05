@@ -1,0 +1,166 @@
+.futureContainer{
+    z-index: 20000;
+    margin-top: -30px;
+}
+.futureContent{
+   @apply mx-24;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.futureLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.futureLeft:nth-child(){
+    flex: 1;
+}
+.futureLeft p{
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 5px;
+    font-weight: light;
+}
+.futureLeft h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 20px;
+ 
+}
+.futureLeft .text{
+    margin-bottom: 10px;
+}
+.Leftcards{
+    flex: 1;
+    width: 100%;
+    
+}
+.futureRight{
+    flex: 1;
+    display: flex;
+    gap: 0px;
+    justify-content: space-around;
+}
+.cardHeader{
+    border-left: 1px solid #4BD2E4;
+    padding: 15px;
+    width: 250px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.cardHeader:nth-child(1){
+    border-left: 1px solid #FF83B7;
+}
+.cardHeader p{
+    inline-size: 150px;
+    overflow-wrap: break-word;
+}
+.cardHeader p{
+    inline-size: 150px;
+    overflow-wrap: break-word;
+}
+.Rightcards{
+    flex: 1;
+}
+.Rightcards .cards{
+    height: 170px;
+    width: 250px;
+    background-color: #0D131B;
+    border-bottom: 1px solid #FF83B7;
+    text-transform: uppercase;
+    margin-top: 3px;
+    font-size:14px;
+    padding:10px ;
+    
+}
+.Leftcards .cards{
+    height: 170px;
+    width: 250px;
+    background-color: #0D131B;
+    border-bottom: 1px solid #4BD2E4;
+    text-transform: uppercase;
+    margin-top: 3px;
+    font-size:14px;
+    padding:10px ;
+}
+.together{
+
+        background: -webkit-linear-gradient(#0764E7, #FF6DC1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.text{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px){
+    .icon{
+        margin-top: -50px;
+    }
+    .futureContent{
+        display: flex;
+        flex-direction: column;
+        @apply mx-1;
+        display: flex;
+        gap: 10px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .futureRight{
+        display: flex;
+        flex-direction: column;
+    }
+    .futureContainer{
+        z-index: 20000;
+        margin-top: -30px;
+    }
+  
+     .Rightcards .cards{
+        height: auto;
+        width: 300px;
+        background-color: #0D131B;
+        border-bottom: 1px solid #FF83B7;
+        text-transform: uppercase;
+        margin-top: 3px;
+        font-size:14px;
+        padding:10px ;
+    }
+    .Leftcards .cards{
+        height: auto;
+        width: 300px;
+        background-color: #0D131B;
+        border-bottom: 1px solid #4BD2E4;
+        text-transform: uppercase;
+        margin-top: 3px;
+        font-size:14px;
+        padding:10px ;
+    }
+    .cardHeader{
+        border-left: 1px solid #4BD2E4;
+        padding: 15px;
+        width: 250px;
+        font-weight: 500;
+        margin-bottom: 25px;
+        margin-top: 10px;
+
+    }
+    .cardHeader:nth-child(1){
+        margin-bottom: 25px;
+        border-left: 1px solid #FF83B7;
+    }
+   .futureRight{
+    flex: 1;
+    display: flex;
+    gap: 0px;
+    justify-content: space-around;
+    
+   }
+  
+}
+

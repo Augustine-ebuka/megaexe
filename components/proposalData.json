@@ -1,0 +1,28 @@
+{ 
+    "posts": [
+    {
+        "title":"Client Oriented",
+        "content":"We feel putting people first isn’t just the right way to do business, it’s the right thing, period!",
+        "icon":"/icon1.svg",
+        "id":1
+    },
+    {
+        "title":"Expertise",
+        "content":"We exercise our expertise, as well as our industry know-how, so as to develop an award-winning and performance-driven products for your business.",
+        "icon":"/icon2.svg",
+        "id":2
+    },
+    {
+        "title":"Satisfaction",
+        "content":"We prioritize our clients’ satisfaction and invest the time to learn your business, products, and goals.",
+        "icon":"/icon3.svg",
+        "id":3
+    },
+    {
+        "title":"Result",
+        "content":"We are performance driven, and as your partner, you can trust us to create a product that satisfies your customers.",
+        "icon":"/icon4.svg",
+        "id":4
+    }
+]
+}

@@ -1,0 +1,207 @@
+.brandinContainer{
+    @apply p-2;
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+.brandingContent{
+    @apply m-20
+}
+.upperContent{
+    @apply flex gap-3 my-4;
+
+}
+
+.upperContent:nth-child(){
+    flex: 1;
+}
+.rightCont{
+    background-color: #2a2424;
+    padding: 15px;
+    flex: 1;
+    border-radius: 5px;
+}
+.leftCont{
+    flex: 1;
+}
+.belowContent{
+    @apply flex gap-9 justify-between mt-20
+}
+.leftBelowContent{
+  
+    flex: 1;
+}
+.leftBelowContent ul{
+    border-radius: 5px;
+    margin: 20px;
+    background-color: #070648;
+    height: 300px;
+    width: 300px;
+}
+.leftBelowContent ul li{
+    @apply py-5 px-3;
+    color: #707070;
+    font-weight: 700;
+    cursor: pointer;
+
+}.control{
+    width: 200px;
+    background-color:#070648;
+    color:#707070;
+    border-radius:7px;
+    padding: 10px;
+}
+.leftBelowContent ul li:hover{
+    background-color: #2A2424;
+    padding: auto;
+}
+.rightBelowContent{
+    background-color: #070648;
+    flex: 3;
+    border-radius: 5px;
+    width: 100%;
+}
+.rightBelowContentStyle{
+    background-color: rgba(62, 60, 60, 0.4);
+   padding: 10px;
+   font-size: 14px;
+   font-weight: 300;
+   height: 300px;
+   border-radius: 10px;
+   @apply px-12;
+   background-image: url(../public/pattern2.svg);
+   background-position: top right;
+   background-repeat: no-repeat;
+   color: white;
+   padding-left: 25px
+}
+.selectItem{
+    font-weight:bold;
+    color: #707070;
+    font-weight: 12px;
+    font-family: "Lexend Deca";
+    @apply m-2 rounded-md cursor-pointer p-2;
+}
+.selectItem:hover{
+    background-color: #2A2424;
+}
+.leftCont h1{
+    color: #0764E7;
+    font-size: 35px;
+    color: #0764E7;
+    inline-size: 560px;
+    overflow-wrap: break-word;
+}
+.itemHeader{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .brandinContainer{
+        @apply p-2;
+    }
+    .brandingContent{
+        @apply m-8;
+        font-display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upperContent{
+        @apply flex-col gap-3 my-4;
+    
+    }
+    .leftCont h1{
+        font-weight: bold;
+        font-size:30px;
+        line-height: 45px;
+        inline-size: 320px;
+        overflow-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .rightCont{
+        background-color: #2a2424;
+        padding: 15px;
+        flex: 1;
+        border-radius: 5px;
+    }
+    .leftCont{
+        flex: 1;
+    }
+    .rightCont p{ 
+        margin: 0px;
+        color: #FFFFFF;
+    }
+    .belowContent{
+        @apply flex-col gap-9 justify-between mt-20
+    }
+    .leftBelowContent{
+      
+        flex: 1;
+    }
+    .control{
+        margin: 0px;
+        width: auto;
+        background-color: #070648;
+       
+    }
+    .itemsWrapper{
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+     
+    .show{
+        max-height: 300px;
+    }
+    .itemHeader{
+        @apply flex justify-between p-4;
+    }
+    
+   
+    .leftBelowContent ul{
+        border-radius: 5px;
+        margin: 20px;
+        background-color: #070648;
+        height: 300px;
+        width: 300px;
+    }
+    .leftBelowContent ul li{
+        @apply py-5 px-3;
+        color: #707070;
+        font-weight: 700;
+        cursor: pointer;
+    
+    }
+    .leftBelowContent ul li:hover{
+        background-color: #2A2424;
+        padding: auto;
+    }
+    .rightBelowContent{
+        background-color: #070648;
+        flex: 3;
+        border-radius: 5px;
+        width: 100%;
+      
+    }
+   
+    .select-selected{
+        font-weight: 700;
+        @apply m-4  rounded-sm cursor-pointer p-1;
+    }
+    .selectItem:hover{
+        background-color: #2A2424;
+    }
+    .rightBelowContentStyle{
+        background-color: rgba(62, 60, 60, 0.4);
+       font-size: 12px;
+       font-weight: light;
+       height: auto !important;
+       border-radius: 20px;
+       background-image: url(../public/pattern2.svg);
+       background-position: bottom right;
+       background-repeat: no-repeat;
+       padding: 15px;
+       padding-left: 25px;
+       margin: 0px;
+       padding-bottom: 50px;
+    }
+}

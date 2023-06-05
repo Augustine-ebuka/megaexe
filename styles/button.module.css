@@ -1,0 +1,26 @@
+.buttonContainer{
+    width: 250px;
+
+    top: 0px;
+
+}
+.buttonContent{
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.modal{
+    z-index: 1200;
+}
+.modalText{
+    @apply flex-col p-4
+}
+.textS{
+    @apply flex-col
+}
+.textS div p{
+    font-weight:300;
+    color: #BCB8B8;
+    font-size: 12px;
+}

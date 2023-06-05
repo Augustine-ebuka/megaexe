@@ -1,10 +1,80 @@
-.header{
-   background-color: #201E1E;
-   height: 100px;
-   display: grid;
-   place-content: right;
+
+/*  */
+.headerContainer{
+    background-color: rgba(32, 30, 30,0.5);
+    margin: auto;z-index: 100;
+    position: relative;
+
 }
-.logo{
-    margin-top: 20px;
-    margin-left: 70px;
+.navMenuContainer {
+    background-color: #282C33;
+    width: 20%;
+    float: right;
+    color: #ABB2BF;
+    z-index: 100;
+    position: absolute;
+    transition: ease-out all 0.5s;
+    right: 0%;
+    height: 100vh;
+    display: none;
+  }
+  .logoCont{
+    @apply ml-16;
+  }
+  .navIconCont{
+    @apply bg-blue-700 p-1 mt-2 mb-2 rounded-l md:mr-8 lg:mr-16 mr-8;
+  }
+  @media (max-width: 768px) {
+    /* Styles for mobile devices */
+    .navMenuContainer {
+      height: auto; /* Remove the fixed height */
+      overflow: hidden; /* Disable scrolling */
+    }
+    .logoCont{
+        @apply ml-7
+    }
+  }
+  
+.navHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+    margin: 4px;
+}
+.navBody{
+    background-color: #282C33;
+}
+.navBody ul{
+    display: block;
+    margin: 7px 0px 7px 0px;
+}
+.navBody ul li{
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.navBody ul li:hover{
+    color: white;
+}
+.navBody ul li:first-child{
+    color: white;
+}
+
+.hash{
+    color: #C778DD;
+    font-weight: 600;
+    padding: 1px;
+}
+.socialIcon{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-self: center;
+    margin-bottom: 50px;
+    padding: 7px;
+}
+@media screen and (max-width: 767px){
+    .navMenuContainer{
+        width: 50%;
+    }   
 }

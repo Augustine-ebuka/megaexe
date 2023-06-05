@@ -1,94 +1,167 @@
-.heroHeader{
-    margin: 30px 10px 70px 70px;
-    height: 100vh;
-    position: relative;
-
+.heroContainer{
+    background-color: #000f19;
+    background-image: url(../public/map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain
+ 
 }
-.heroHeader h1{
-    font-size: 80px;
+.herocontent{
+    @apply flex mx-20;
+}
+.imageChart{
+    height: 250px;
+    width: 400px;
+}
+.heroleft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+    margin-top: 60px;
+}
+.heroleft:nth-child(){
+    flex:1;
+}
+.heroleft h1{
     font-weight: 800;
+    font-size: 52px;
     color: #BCB8B8;
-    width: 85%;
-    line-height: 85px;
+    inline-size: 550px;
+    overflow-wrap: break-word;
+    line-height: 62px;
+ 
+    
 }
-.heroHeader p{
-    color: #BCB8B8;
-    font-size: 24px;
-    font-weight: 500;
-    width: 70%;
-    margin-top: 20px;
+.heroleft p{
+    color: white;
+    font-weight:600;
+    padding-top: 20px;
+    font-family: "poppins";
+    
+}
+.buttonSide{
+    margin-bottom: 30px;
+}
+.buttonContent{
+   
+    
+}
+.heroRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
 }
 .blue{
-    color:#0764E7;
-}
-.popup {
-    background-color: #000F19;
-    width: 300px;
-    color: #fff;
-    padding: 20px;
-    border-radius: 4px;
-    position: absolute;
-    top: 170px;
-    left: 0;
-    height: 250px;
-    transition: ease-in-out 0.5s;
-    transform: scale(1.2);
-
-}
-.popheader{
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-    align-items: s;
-}
-.popheader h2{
-    font-weight: 800;
-    font-size: 24px;
     color: #0764E7;
-    @apply pb-4
 }
-.popbody h2{
-    font-size: 14px;
-    font-weight: 400;
-    color: #BCB8B8;
+.heroBelow{
+    background-image: url(../public/pattern.png);
+    background-position: center;
+    background-size: contain;
+   @apply m-20 mb-10;
 }
-.herobtn{
-
-    background-color: #0764E7;
-    color: #fff;
-    width: 170px;
-    font-weight: 600;
+.heroBelow h1{
+    font-weight: bold;
+    font-size: 35px;
+    color: #0764E7;
+    margin-bottom: 10px;
+    width: 40%;
+}
+.heroBelow p{
+    color: white;
+    margin-bottom: 30px;
+    width: 40%;
+    font-weight: light;
+    font-family: "poppins";
     font-size: 16px;
-    height: 50px;
-    text-align: center;
-    margin-top: 50px;
-    border-radius: 3px;
-    padding: 20px 20px 40px 20px;
-    cursor: pointer;
+}
 
-}
-.closebtn{
-   cursor: pointer;
-}
 @media screen and (max-width: 767px){
-    .heroHeader{
-        margin: 30px 10px 70px 10px;
-        height: 100vh;
-    
+    .heroContainer{
+        background-color: #000f19;
+        background-image: url(../public/map.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+     
     }
-    .heroHeader h1{
-        font-size: 55px;
-        font-weight: 600;
+    .herocontent{
+        @apply flex-col mx-7;
+    }
+    
+    .heroleft{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        flex: 1;
+        margin-top: 90px;
+    }
+    .heroleft:nth-child(){
+        flex:1;
+    }
+    .heroleft h1{
+        font-weight: 800;
+        font-size: 36px;
         color: #BCB8B8;
-        width: 100%;
         line-height: 50px;
+        inline-size: 300px;
+        overflow-wrap: break-word;
+        
+    }
+    .heroleft p{
+        color: white;
+        font-weight:600;
+        padding-top: 20px;
+        inline-size: 300px;
+        overflow-wrap: break-word;
+        
+    }
+    .buttonSide{
+        margin-bottom: 30px;
+    }
+    .buttonContent{
+       
+        
+    }
+    .heroRight{
+        flex: 1;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        background-color: #000F19;
+    }
+    .blue{
+        color: #0764E7;
+    }
+    .heroBelow{
+        background-image: url(../public/pattern.png);
+        background-position: center;
+        background-size: contain;
+       @apply m-8;
+    }
+    .heroBelow h1{
+        font-weight: bold;
+        font-size: 36px;
+        color: #0764E7;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .heroBelow p{
+        color: white;
+        margin-bottom: 30px;
+        width: 80%;
+        font-weight: light;
+        font-size: 16px;
 
     }
-    .heroHeader p{
-        color: #BCB8B8;
-        font-size: 16px;
-        font-weight: 400;
-        width: 100%;
-        margin-top: 20px;
+    .imageChart{
+        height: auto;
+        width: 380px;
+       
     }
+
 }

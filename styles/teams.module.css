@@ -1,0 +1,58 @@
+
+.teamContainer{
+    margin-top: -70px;
+    z-index: 2000
+}
+.teamContent{
+   @apply mx-24;
+
+}
+.teamText{
+    @apply ml-16
+}
+.teamText h1{
+    color: hsl(215, 94%, 47%);
+    font-size:32px;
+    inline-size: 250px;
+    overflow-wrap: break-word;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.teamText p{
+    color: white;
+    inline-size: 350px;
+    overflow-wrap: break-word;
+}
+.teamCarousel{
+    margin-top: 30px;
+}
+@media screen and (max-width:768px) {
+    
+.teamContainer{
+    margin-top: 0px;
+    z-index: 2000
+}
+.teamContent{
+   @apply mx-8;
+
+}
+.teamText{
+    @apply ml-0
+}
+.teamText h1{
+    color: hsl(215, 94%, 47%);
+    font-size:32px;
+    inline-size: 250px;
+    overflow-wrap: break-word;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.teamText p{
+    color: white;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+}
+.teamCarousel{
+    margin-top: 30px;
+}
+}

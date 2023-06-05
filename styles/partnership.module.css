@@ -1,0 +1,119 @@
+.partnershipContainer{
+    margin-top: -30px;
+}
+.partnershipContent{
+    background-color: rgba(122, 122, 138,0.2);
+    @apply mx-20 justify-center flex-col items-center pt-10;
+}
+.text{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0764E7;
+}
+.cardContainer{
+    background-color: rgba(62,60,60, 0.2);
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    justify-content: center;
+    width: 70%;
+}
+.cards{
+    background-color: rgba(62, 60, 60,0.9);
+    height: 150px;
+    min-height: 150px;
+    min-width: 150px;
+    max-width: 140px;
+    max-height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    place-content: center;
+    padding: 12px;
+    transition: background-color 0.1s ease
+}
+.cards h2{
+    margin: auto;
+    font-size: 13px;
+}
+.cards p{
+    color: white;
+    @apply mt-3;
+    font-size: 13px;
+}
+.cards:hover{
+    background-color: #0850A6;
+}
+@media screen and (max-width: 768px) {
+    .partnershipContainer{
+        padding-bottom: 40px;
+    }
+    .partnershipContent{
+        background-color: #192531;
+        @apply mx-8 justify-center flex-col items-center
+    }
+    .text{
+        text-align: center;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text h1{
+        font-size: 24px;
+        font-weight: 700;
+        color: #0764E7;
+    }
+    .text p{
+        font-size: 14px !important;
+        text-align: center !important;
+        inline-size: 300px !important;
+        overflow-wrap: break-word !important;
+    }
+    .cardContainer{
+        background-color: transparent;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .cards{
+        background-color: #272D35;
+        height: 180px;
+        min-height: 180px;
+        min-width: 150px;
+        max-width: 180px;
+        max-height: 180px;
+        margin: 10px;
+        border-radius: 10px;
+        place-content: center;
+        padding: 12px;
+        transition: background-color 0.1s ease
+    }
+    .cards h2{
+        margin: auto;
+        font-size: 12px;
+    }
+    .cards p{
+        color: white;
+        @apply mt-3;
+        font-size: 12px;
+    }
+    .cards:hover{
+        background-color: #0850A6;
+    }
+    
+}

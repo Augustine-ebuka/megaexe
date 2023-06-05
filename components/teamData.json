@@ -1,0 +1,53 @@
+{
+    "teams":[
+        {
+            "id":1,
+            "name":"Tamunosiki Innocent",
+            "description":"Product Designer - Loves listening to music",
+            "linkedin":"https://www.linkedin.com/in/innocenttamunosiki",
+            "image":"/INNOCENT.jpg"
+        },
+        {
+            "id":2,
+            "name":"Ukonu Lucky",
+            "description":"Full Stack Engineer - Passionate about solving problems",
+            "linkedin":"https://www.linkedin.com/in/ukonu-ifeanyichukwu-lucky",
+            "image":"/LUCKY.jpg"
+        },
+        {
+            "id":3,
+            "name":"Haniel Ubogu",
+            "description":"Front End Software Engineer - Passionate about research",
+            "linkedin":"https://www.linkedin.com/in/hanielu/",
+            "image":"/HANIEL.jpg"
+        },
+        {
+            "id":4,
+            "name":"Joshua Olosho",
+            "description":"Back End Engineer - Passionate about transforming Businesses",
+            "linkedin":"https://www.linkedin.com/in/joshua-damilare-4a791018a/",
+            "image":"/JOSHUA.jpg"
+        },
+        {
+            "id":5,
+            "name":"Chrys Odoemenem",
+            "description":"Technology Analyst -  Passionate about Blockchain",
+            "linkedin":"https://www.linkedin.com/in/chrysogonusodoemenem",
+            "image":"/CHRYS.jpg"
+        },
+        {
+            "id":6,
+            "name":"Obetta Augustine",
+            "description":"Programmer and Blockchain Developer - Interested in AI",
+            "linkedin":"https://www.linkedin.com/in/obetta-augustine-70b8501a3",
+            "image":"/AUGUSTINE.jpg"
+        },
+        {
+            "id":7,
+            "name":"John Odoemenem",
+            "description":"Solutions Architect | Business Developer - Passionate about AI",
+            "linkedin":"https://www.linkedin.com/in/johnodoemenem/",
+            "image":"/JOHN.jpg"
+        }
+    ]
+}

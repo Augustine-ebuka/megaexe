@@ -1,22 +1,29 @@
 .footerContainer{
     background-color: #171414;
     color:#abb2bf ;
-    justify-content: center;
-    place-content: center;
+    /* background-image: url(../public/footer-icon.png);
+    background-position: bottom;
+    background-size: cover; */
+    font-size: 12px;
+    position: relative;
+    overflow-y: hidden;
     display: flex;
-    background-image: url(../public/footer-icon.png);
-    background-position: center;
-    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .footerContent{
     display: flex;
-    justify-content:center;
+    justify-content:space-evenly;
     gap: 20px;
-   @apply  ml-2 mr-2 w-8/12;
-   margin-top:20px;
-   padding: 7px;
-   
-
+   width: 75%;
+   margin-bottom: 30px;
+   align-content: center;
+   gap: 20px;
+}
+.footerWrapper{
+    display: flex;
+    justify-content: center;
 }
 .footerFirst{
     flex: 1;
@@ -28,10 +35,14 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    line-height: 3px;
+    font-size: 8px;
 }
 .footerthird{
     font-size: small;
     flex: 1;
+    padding-left: 40px;
 }
 .socialIcon{
     display: flex;
@@ -41,38 +52,102 @@
 
 }
 .terms{
-    font-size: 12px;
-    font-weight: 600;
     display: flex;
-    gap: 5px;
-    margin-top: 5px;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.terms p{
+    font-size: 14px;
+    font-weight:bold; 
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+.footerstyle{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
 }
 @media screen and (max-width: 767px){
-    .footerContent{
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        gap: 10px;
-       @apply  ml-1 mr-1 w-11/12;
-       margin-top:20px;
-       padding: 7px;
-    }
-    .footerSecond p{
-        width: 70%;
-    }
-    .terms{
-        gap: 5px;
-    }
     .footerContainer{
+       
         background-color: #171414;
         color:#abb2bf ;
-        justify-content: center;
-        place-content: center;
-        display: flex;
-        background-image: url(../public/footer-icon.png);
+        /* background-image: url(../public/footer-icon.png);
         background-position: bottom;
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 200px;
+        background-size: cover; */
+        font-size: 12px;
+        position: relative;
+        overflow-y: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footerContent{
+        display: flex;
+        justify-content:space-evenly;
+        gap: 20px;
+       width: 100%;
+       margin-bottom: 30px;
+       align-content: center;
+       gap: 20px;
+       @apply px-7
+    }
+    .footerWrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footerFirst{
+        flex: 1;
+        font-size: 12px;
+        @apply p-2;
+    }
+    .footerSecond{
+        @apply p-2;
+        flex: 1;
+        font-size: 12px;
+        display: grid;
+        justify-content: start;
+        align-items: start;
+        text-align: left;
+        line-height: 3px;
+        font-size: 8px;
+    }
+    .footerthird{
+        @apply p-2;
+        font-size: small;
+        flex: 1;
+        padding-left: 0px;
+    }
+    .socialIcon{
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        justify-self: center;
+    
+    }
+    .terms{
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        justify-content: start;
+        justify-items: start;
+    }
+    .terms p{
+        font-size: 14px;
+        font-weight:bold; 
+        display: flex;
+        text-align: center;
+        cursor: pointer;
+        z-index: 30000;
+    }
+    .footerstyle{
+        position: absolute;
+        bottom: 0px;
+        left: 0;
     }
 }

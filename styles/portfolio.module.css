@@ -1,0 +1,115 @@
+.portfolioContainer{
+    @apply mb-0;
+}
+.portfolioContent{
+    background-color: #182430;
+    @apply justify-center flex-col items-center mx-20 py-16;
+}
+.text{
+    text-align: center;
+    padding-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.text h1{
+   color: #0764e7;
+   font-weight: bold;
+   font-size: 36px;
+}
+.text p{
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.cardContainer{
+    width: auto;
+    margin: 60px;
+}
+.portfolioTab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabContent{
+    width: 60%;
+    background-color: rgba(84, 85, 105,0.6);
+    border-radius: 4px;
+    overflow-x: hidden;
+    scrollbar-width: thin; /* Hide the scrollbar on most browsers */
+    scrollbar-color: transparent transparent; 
+    @apply justify-center flex items-center;
+
+}
+.tabbtn{
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    font-family: "poppins";
+}
+.active{
+    border-bottom:2px solid #0764e7; ;
+}
+.tabContents{
+    display: none;
+}
+.contentActive{
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    .portfolioContainer{
+        padding-top: 40px;
+        @apply mb-0 mt-10;
+     
+    }
+    .portfolioContent{
+        background-color: #182430;
+        @apply justify-center flex-col items-center mx-8;
+    }
+    .text{
+        text-align: center;
+        margin-top: 50px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .text h1{
+       color: #0764e7;
+       font-weight: bold;
+       font-size: 36px;
+    }
+    .text p{
+        inline-size: 300px;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+    .cardContainer{
+        width: auto;
+        margin: 0px;
+    }
+    .tabContent{
+        padding: 3px;
+        display: inline;
+        overflow-x:scroll;
+        display: flex;
+        margin: 5px;
+        width: 300px;
+    }
+    .tabbtn{
+        padding: 5px;
+        font-size: 9px;
+        font-family: "poppins";
+        text-align: left;
+        display: inline;
+        overflow-x: scroll;
+    }
+    .portfolioContainer{
+        overflow-x: scroll;
+    }
+    
+}

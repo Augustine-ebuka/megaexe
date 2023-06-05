@@ -1,0 +1,45 @@
+{
+    "info": [
+      {
+        "id": 1,
+        "websiteName": "Amcec Health",
+        "desc": "Diabetes counselling agency based in Turks and Caicos Island",
+        "image": "",
+        "linkUrl": "https://www.amcechealth.com/",
+        "category": ["all","branding", "ux", "development"]
+      },
+      {
+        "id": 2,
+        "websiteName": "Home of Victory",
+        "desc": "A Christian chatting platform and community",
+        "image": "",
+        "linkUrl": "https://homeofvictory.com/",
+        "category": ["all","ux", "branding", "development"]
+      },
+      {
+        "id": 3,
+        "websiteName": "Greenland Synergy",
+        "desc": "A Business consultation platform based in Nigeria",
+        "image": "",
+        "linkUrl": "https://greenlandsynergy.com/",
+        "category": ["all","ux", "development"]
+      },
+      {
+        "id": 4,
+        "websiteName": "FYNI.og",
+        "desc": "A Nursing Organisation platform for education",
+        "image": "",
+        "linkUrl": "https://fyni.org/",
+        "category": ["all","ux", "development"]
+      },
+      {
+        "id": 5,
+        "websiteName": "Hospyta Healthcare",
+        "desc": "A Health-Tech platform, offering online services",
+        "image": "",
+        "linkUrl": "https://hospyta.com",
+        "category": ["all","ux", "development"]
+      }
+    ]
+  }
+  
