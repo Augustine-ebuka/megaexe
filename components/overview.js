@@ -8,11 +8,11 @@ export default function Overview() {
   return (
       <div className={styles.overview} id='overview'>
           <div className={styles.horizontal}>
-              <Image src={wavy}></Image>
+              <Image src={wavy} alt='overview'></Image>
           
           </div> 
           <div className={styles.vertical}>
-              <Image src={verticalwavy}></Image>
+              <Image src={verticalwavy} alt='overview'></Image>
           
           </div> 
           <div className={styles.overviewContent}>

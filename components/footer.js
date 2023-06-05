@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
           </div> 
             </div>
-          <Image src={styleimage} className={style.footerstyle}></Image>
+          <Image src={styleimage} className={style.footerstyle} alt='footer'></Image>
     </div>
             {/* <Image src={styleimage} style={{ display: "fixed" }} alt='foter-style'></Image>  */}
             </>    

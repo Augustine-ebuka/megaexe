@@ -20,7 +20,7 @@ export default function FutureProject() {
                       <p>We've listed a few industries we planned to build software on; If you need clarification on whether your business fits the bill, we'd love to talk anyway.</p>
                   </div>
                   <div className={styles.icon}>
-                      <Image src={spiral} style={{width:'60%'}}></Image>
+                      <Image src={spiral} style={{width:'60%'}} alt='future'></Image>
                   </div>
               </div>
               <div className={styles.futureRight}>
@@ -31,7 +31,7 @@ export default function FutureProject() {
                       {
                           futureData.map((infoLeft) => (
                             <div className={styles.cards} key={infoLeft.id}>
-                              <Image src={icons(`./iconset${infoLeft.id}.svg`).default} />
+                              <Image src={icons(`./iconset${infoLeft.id}.svg`).default} alt='future' />
                               <p style={{ inlineSize: "170px", overflowWrap: "break-word", paddingTop:"7px" }}>{infoLeft.content}</p>
                             </div>
                           ))
@@ -44,7 +44,7 @@ export default function FutureProject() {
                     {
                           futureData2.map((infoRight) => (
                             <div className={styles.cards} key={infoRight.id}>
-                              <Image src={icons(`./iconset${infoRight.id}.svg`).default} />
+                              <Image src={icons(`./iconset${infoRight.id}.svg`).default} alt='future' />
                               <p style={{ inlineSize: "170px", overflowWrap: "break-word", paddingTop:"7px"  }}>{infoRight.content}</p>
                             </div>
                           ))

@@ -30,7 +30,7 @@ export default function Proposal() {
                           </div>
                       </div>
                       <div className={styles.timeline}>
-              <Image src={Timeline}></Image>
+              <Image src={Timeline} alt='propose'></Image>
                       </div>
                          
                       <div className={styles.leftTimeline}>
@@ -50,7 +50,7 @@ export default function Proposal() {
                       {
                           infos.map(info =>
                             <div className={styles.list}>
-                                <Image src={icons(`./icon${info.id}.svg`).default}></Image>
+                                <Image src={icons(`./icon${info.id}.svg`).default} alt='proposal'></Image>
                                 <div key={info.id}>
                                       <p  style={{fontWeight:"bold"}}>{ info.title}</p>
                                       <p>{ info.content}</p>   

@@ -26,7 +26,7 @@ export default function Partnership() {
                       <p className='text-center uppercase'>IDEA HAS Proven product-market fit</p>
                   </div>
                   <div className={styles.cards}>
-                      <h2 className='ml-2'><Image src={knowledge} style={{margin:'auto'}}></Image></h2>
+                      <h2 className='ml-2'><Image src={knowledge} style={{margin:'auto'}} alt='partner'></Image></h2>
                       <p className='text-center uppercase'>KNOWLEDGE OF AUDIENCE AND end market</p>
                   </div>
                   <div className={styles.cards}>
