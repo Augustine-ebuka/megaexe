@@ -58,7 +58,7 @@ export default function TeamCard() {
             {teamDetails.map((team) => (
                 <div className="teamCard" key={team.id}>
                     <div className="imageCover">
-                        <Image src={`/teams/teamImage${team.id}.JPG`} alt="team" width={300} height={300} className="imageCard" />
+                        <Image src={`/teams/teamImage${team.id}.JPG`} alt="team" width={500} height={400} className="imageCard" />
                     </div>
                     <div className="cardTextCont">
                         <p className="my-4 font-bold" style={{fontSize:"16px"}}>{team.name}</p>

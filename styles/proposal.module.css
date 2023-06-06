@@ -82,7 +82,7 @@
     display: block;
     position: absolute;
     margin-top: 617px;
-    left: 51px;
+    left: 70px;
 }
 @media screen and (max-width: 767px){
     .cardContainer{
@@ -129,7 +129,7 @@
         overflow-wrap: break-word;
     }
     .rightTimelineInfo2nd{
-        @apply mt-40;
+        @apply mt-60;
       
 
     }
@@ -153,7 +153,7 @@
     .bottom{
         display: inline;
         flex: 0;
-        left: 51px;
+        left: 70px;
     }
     .leftStepper{
       

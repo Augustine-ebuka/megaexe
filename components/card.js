@@ -68,7 +68,7 @@ export default function PortCard(props) {
                       <Image src={`/portfolio/portfolioImage${info.id}.PNG`}  alt='portfloi1' width={500} height={400}></Image>
                 </div>
                   </div>
-                  <div className='flex-1 pl-4' style={{color:"#9F9F9F", backgroundColor:"#000F19"}}>
+                  <div className='flex-1 pl-4' style={{color:"#9F9F9F", backgroundColor:"#000F19", height:"200px"}}>
                 <div className='flex justify-start items-center mb-6 mt-0 p-2'>
                   <BsFillPersonFill size={25} color='#707070'></BsFillPersonFill> 
                   <p className='inline ml-3 font-bold pt-3 pl-3 pr-3 pb-3' style={{fontSize:"13px", color:"#707070"}}>{ info.websiteName}</p>
