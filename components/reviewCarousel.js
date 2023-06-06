@@ -15,8 +15,7 @@ export default function ReviewCarousel() {
 
     
   return (
-      <Carousel>
+     
          <ReviewCard></ReviewCard>
-    </Carousel>
   )
 }
