@@ -30,14 +30,14 @@ export default function Process() {
                   </div>
                   <div className={styles.rightcard}>
                   <div className={styles.upperRightcard}>
-                            <div className={styles.detachedBlue} style={{backgroundColor:"#070648", borderRadius:"7px", padding:"5px"}}></div>
+                            <div className={styles.detachedBlue}> <Image src={geometry} height={50} width={50} style={{height:"80px", width:"100px"}} /></div>
                             <div className={styles.upperRightcardText}>
                                 <p className='p-1 font-bold ml-6 text-white'>Development</p>
                                 <p className='ml-6'>Agile development, Rapid deployment, Alpha and Beta Testing, MVP and full rollout</p>  
                             </div>
                       </div>
                       <div className={styles.lowerRightcard}>
-                      <div className={styles.detachedBlue} style={{backgroundColor:"#070648", borderRadius:"7px", padding:"5px"}}></div>
+                      <div className={styles.detachedBlue}><Image src={geometry} height={50} width={50} style={{height:"80px", width:"100px"}} /></div>
                             <div className={styles.upperRightcardText}>
                                 <p className='p-1 font-bold ml-6 text-white'>Iteration / Maintenance </p>
                                 <p className='ml-6'>Client engagement and training, 24/7 Support, Bug fixes, Reporting and analysis</p>  

@@ -53,7 +53,7 @@ export default function SoftwareTab(props) {
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+        <Tabs value={value} variant="scrollable" onChange={handleChange} aria-label="basic tabs example">
           <Tab icon={<BiCodeAlt size={25} />} label="Web Development" {...a11yProps(0)} iconPosition='start' sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}} />
           <Tab icon={<AiOutlineAppstoreAdd  size={25}/>} label="Software Applications" iconPosition='start' {...a11yProps(1)} sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}}/>
           <Tab icon={<GiChaingun size={25} />} label="Blockchain Development" {...a11yProps(2)} iconPosition='start' sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}} />

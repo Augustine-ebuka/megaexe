@@ -74,7 +74,7 @@
         color: #0764E7;
     }
     .text p{
-        font-size: 14px !important;
+        font-size: 15px !important;
         text-align: center !important;
         inline-size: 300px !important;
         overflow-wrap: break-word !important;
@@ -114,7 +114,7 @@
     .cards p{
         color: white;
         @apply mt-3;
-        font-size: 12px;
+        font-size: 15px;
     }
     .cards:hover{
         background-color: #0850A6;

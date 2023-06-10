@@ -1,3 +1,4 @@
+"use client"
 import Footer from '@/components/footer'
 import HeroSection from '@/components/hero'
 import Overview from '@/components/overview'
@@ -14,6 +15,7 @@ import Head from 'next/head'
 import FutureProject from '@/components/futureProject'
 import Teams from '@/components/teams'
 import Faqs from '@/components/faq'
+import ScrollToTop from "react-scroll-to-top";
 // import Stepper from '@/components/stepper'
 
 
@@ -40,6 +42,7 @@ export default function Home() {
       <Faqs></Faqs>
       {/* <Stepper></Stepper> */}
       {/* <ScrollableTabsButtonForce></ScrollableTabsButtonForce> */}
+      <ScrollToTop smooth="true" height="20" width='20' style={{padding:"8px"}}></ScrollToTop>
       <Footer></Footer>
     </main>
   )

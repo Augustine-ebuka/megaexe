@@ -76,12 +76,12 @@
     color:#00E5FF;
 }
 .rightTimelineInfo2nd{
-    @apply mt-60;
+   margin-top: 250px;
 }
 .bottom{
     display: block;
     position: absolute;
-    margin-top: 617px;
+    margin-top: 624px;
     left: 70px;
 }
 @media screen and (max-width: 767px){
@@ -106,7 +106,7 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-        margin-top: 30px;
+        margin-top: 80px;
     }
     .rightList p{
         padding: 10px;
@@ -129,10 +129,8 @@
         overflow-wrap: break-word;
     }
     .rightTimelineInfo2nd{
-        @apply mt-60;
-      
-
-    }
+        margin-top: 250px;
+     }
     .leftTimelineInfo1st{
         margin-top: 130px !important;
     }
@@ -152,7 +150,7 @@
     }
     .bottom{
         display: inline;
-        flex: 0;
+        flex: 7px;
         left: 70px;
     }
     .leftStepper{

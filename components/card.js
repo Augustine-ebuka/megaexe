@@ -26,43 +26,46 @@ export default function PortCard(props) {
     infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     initialSlide: 0,
+    lazyLoad: false,
+
+	accessibility: true,
+
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: true,
         }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
+          slidesToScroll: 1
         }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
         }
       }
     ]
   };
   return (
     <>
-      <Slider {...settings}>
+      <Slider key={porfolioData.length} {...settings} >
       {
-          porfolioData.map((info) => {
+          porfolioData?.map((info) => {
           if(info.category.includes(props.category))
           return (
-            <div className={ styles.superCont}> 
+            <div key={info.id} className={ styles.superCont}> 
               <div className={styles.imageContainer}>
                 <div className={styles.img}>
                       <Image src={`/portfolio/portfolioImage${info.id}.PNG`}  alt='portfloi1' width={500} height={400}></Image>

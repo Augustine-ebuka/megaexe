@@ -52,7 +52,7 @@ export default function SoftwareTab(props) {
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+        <Tabs value={value} variant="scrollable" onChange={handleChange} aria-label="basic tabs example">
           <Tab  icon={<TbSearch size={25} />} label="Cybersecurity Services" {...a11yProps(0)}  iconPosition='start' sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}} />
           <Tab icon={<TbLoader size={25} />}  label="Megaexe Cybershop" {...a11yProps(1)} iconPosition='start' sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}} />
         </Tabs>

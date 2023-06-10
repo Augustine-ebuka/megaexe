@@ -20,6 +20,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 
 export default function Navbar() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const [isScrolledUp, setIsScrolledUp] = useState(false);
 
 
   const showMenu = () => {
@@ -31,7 +32,6 @@ export default function Navbar() {
   };
   // scroll
 
-  const [isScrolledUp, setIsScrolledUp] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset;
@@ -53,7 +53,7 @@ export default function Navbar() {
   
   return (
     <>
-      <div className={style.headerContainer}>
+      <div className={style.headerContainer} style={{backgroundColor:isScrolledUp?"rgba(32, 30, 30,0.7)":"#201E1E"}}>
         <div className='flex justify-between items-center'>
           <div className={style.logoCont}>
             <Link href='#'><Image src={logo} alt='megaexe-logo' height={30}/></Link>

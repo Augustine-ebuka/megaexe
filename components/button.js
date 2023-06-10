@@ -36,6 +36,7 @@ export default function StartButton() {
         setCopyEmail(false);
       }, 2000);
     }
+    toast.success('Copied to clipboard!', { toastId: 'copyToast', position:'bottom-right' });
   };
 
   return (
@@ -66,11 +67,14 @@ export default function StartButton() {
                 <p>Phone:</p>
                 <div className="flex justify-between">
                   <p>+2347032420219</p>
-                  <FiCopy
-                    size={25}
-                    color={ copyClipPhone?"green":"#BCB8B8"}
-                    onClick={() => copyText('+2347032420219','phone')}
-                  />
+                  <div style={{paddingTop:"7px"}}>
+                    <FiCopy
+                      size={23}
+                      color={ copyClipPhone?"green":"#BCB8B8"}
+                      onClick={() => copyText('+2347032420219', 'phone')
+                      }
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -79,11 +83,14 @@ export default function StartButton() {
                 <p>Email:</p>
                 <div className="flex justify-between">
                   <p>contact@megaexe.com</p>
-                  <FiCopy
-                    size={25}
-                    color={ copyClipEmail?"green":"#BCB8B8"}
-                    onClick={() => copyText('contact@megaexe.com','email')}
-                  />
+                  <div style={{paddingTop:"7px"}}>
+                      <FiCopy
+                        size={23}
+                        color={ copyClipEmail?"green":"#BCB8B8"}
+                        onClick={() => copyText('contact@megaexe.com','email')}
+                      />
+
+                  </div>
                 </div>
               </div>
             </div>

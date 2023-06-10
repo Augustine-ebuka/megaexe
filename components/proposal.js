@@ -30,7 +30,7 @@ export default function Proposal() {
                           </div>
                       </div>
                       <div className={styles.timeline}>
-              <Image src={Timeline} alt='propose'></Image>
+              <Image src={Timeline} alt='propose'  style={{pointerEvents:"none"}}></Image>
                       </div>
                          
                       <div className={styles.leftTimeline}>
@@ -38,7 +38,7 @@ export default function Proposal() {
                             <p  style={{color:"#00E5FF"}}>5 min</p>
                             <p>Average Response Time</p>
                           </div>
-                      <div className={styles.leftTimelineInfo2nd} style={{marginTop:"230px"}}>
+                      <div className={styles.leftTimelineInfo2nd} style={{marginTop:"240px"}}>
                             <p  style={{color:"#00E5FF"}}>Round the clock</p>
                               <p>Security Monitoring</p>
                           </div>

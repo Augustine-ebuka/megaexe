@@ -1,6 +1,6 @@
 .buttonContainer{
     width: 250px;
-
+    position: relative;
     top: 0px;
 
 }
@@ -14,7 +14,8 @@
     z-index: 1200;
 }
 .modalText{
-    @apply flex-col p-4
+    @apply flex-col p-4;
+  
 }
 .textS{
     @apply flex-col
@@ -23,4 +24,10 @@
     font-weight:300;
     color: #BCB8B8;
     font-size: 12px;
+}
+.modal{
+    position: absolute;
+    bottom: 0; 
+    transition: ease-in-out 0.5s;
+    margin-bottom: 50px;
 }

@@ -77,7 +77,6 @@ export default function Branding() {
                     <div  className={styles.selectItem} onClick={() => handleOptionClick('GROWTH')}>GROWTH</div>      
                     </div>
                 </div>
-               
                 </div>
             </div>
             <div className={styles.rightBelowContent}>

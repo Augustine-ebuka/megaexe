@@ -121,7 +121,7 @@
         @apply p-2;
         font-size: small;
         flex: 1;
-        padding-left: 0px;
+        padding-left: 8px;
     }
     .socialIcon{
         display: flex;

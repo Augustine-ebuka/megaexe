@@ -52,7 +52,7 @@ export default function SoftwareTab(props) {
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+        <Tabs value={value} variant="scrollable" onChange={handleChange} aria-label="basic tabs example">
           <Tab icon={<MdPercent size={25}/>} label="Digital Marketing" iconPosition='start' {...a11yProps(0)}  sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}} />
           <Tab icon={<TbDatabase size={25} />} iconPosition='start' label="Data Analysis" {...a11yProps(1)} sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}}/>
           <Tab icon={<IoMdCloudOutline size={25}/>} label="Cloud" iconPosition='start'  {...a11yProps(1)} sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}} {...a11yProps(2)} />

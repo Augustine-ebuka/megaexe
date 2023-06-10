@@ -60,8 +60,13 @@ export default function BasicTabs(props) {
     <>
     <Box sx={{ width: '100%'}}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider', color:"white" }}>
-        <Tabs value={value} variant="scrollable"  onChange={handleChange}
-          aria-label="basic tabs example">
+          <Tabs value={value}
+            onChange={handleChange}
+            variant="scrollable"
+            scrollButtons="auto"
+            aria-label="scrollable auto tabs example"
+          >
+            
           <Tab  icon={<AiOutlineEye  size={20}/>}label="Graphics Design" iconPosition="start" {...a11yProps(0)} sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}} />
           <Tab icon={<HiOutlineLockClosed size={20}/>} label="Product Design" iconPosition="start" {...a11yProps(1)} sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}}/>
           <Tab icon={<TfiBook size={20}/> } label="Brand Guideline" iconPosition="start"{...a11yProps(2)} sx={{color:"#707070", textTransform:"capitalize", fontSize:"14px"}} />

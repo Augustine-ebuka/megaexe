@@ -106,10 +106,12 @@ max-width: 310px;
     width: 85px ;
     height: 85px;
     margin-top: -10px;
-    background-image: url(../public//geometarypat.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    background-color:#070648;
+    padding: 7px;
+    border-radius: 10px;
 
 
 }
@@ -240,10 +242,16 @@ max-width: 310px;
         height: 90px;
         border-radius: 18px ;
         padding: 5px;
-        background-image: url(../public//geometarypat.svg);
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
+        background-color:#070648;
+         border-radius:7px; 
+         padding:3px;
+         display:flex ;
+         justify-content:center;
+         align-items:center;
+         padding: 7px;
     }
     .upperRightcard .detachedBlue{
         margin-top: -200px;
