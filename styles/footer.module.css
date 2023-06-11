@@ -17,7 +17,7 @@
     justify-content:space-evenly;
     gap: 20px;
    width: 75%;
-   margin-bottom: 30px;
+   margin-bottom: 70px;
    align-content: center;
    gap: 20px;
 }
@@ -67,7 +67,7 @@
 }
 .footerstyle{
     position: absolute;
-    bottom: -20px;
+    bottom: -30px;
     left: 0;
 }
 @media screen and (max-width: 767px){

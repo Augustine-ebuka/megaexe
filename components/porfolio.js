@@ -26,10 +26,10 @@ export default function Portfolio() {
           </p>
         </div>
         <div className={styles.portfolioTab}>
-        <div className={ styles.itemHeader} style={{backgroundColor:"rgb(7, 100, 231)", margin:"5px", width:"80%", borderRadius:"5px"}}>
-               <p style={{color:"white", fontWeight:"bold"}}>{activeTab}</p>
+            <div className={ styles.itemHeader}>
+               <p style={{color:"white", fontWeight:"bold", textTransform:"uppercase"}}>{activeTab}</p>
                 <MdOutlineKeyboardArrowDown size={24} onClick={openSelect}></MdOutlineKeyboardArrowDown>
-                </div>
+            </div>
           <div className={styles.tabContent}>
             <div className= {`${styles.itemsWrapper} ${showItems ? styles.show : ''}`}>
                 <button

@@ -78,7 +78,7 @@ export default function PortCard(props) {
                   </div>
                   <p className='font-bold mb-6' style={{inlineSize:"250px", overflowWrap:"break-word", fontSize:"16px"} }>{ info.desc}</p>
                   <span className='flex'>
-                  <Link href={info.linkUrl}>   
+                  <Link href={info.linkUrl} target="_blank">   
                           <p className='mb-4 mr-6 font-bold' style={{fontSize:"10px"}}>EXPLORE PROJECT</p>
                   </Link>
                           <FiArrowRight></FiArrowRight>

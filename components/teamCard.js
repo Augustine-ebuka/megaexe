@@ -63,7 +63,7 @@ export default function TeamCard() {
                     <div className="cardTextCont">
                         <p className="my-4 font-bold" style={{fontSize:"16px"}}>{team.name}</p>
                         <p className="teamText">{team.description}</p>
-                        <Link href={team.linkedin}><IoLogoLinkedin size={30} className="mt-1 cursor-pointer" /></Link>
+                        <Link href={team.linkedin}><IoLogoLinkedin target="_blank" size={30} className="mt-1 cursor-pointer" /></Link>
                     </div>
                 </div>
             ))}

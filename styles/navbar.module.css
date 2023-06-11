@@ -9,6 +9,7 @@
     overflow: hidden;
     background-origin: blur(5px);
     backdrop-filter: blur(5px);
+
 }
 .navMenuContainer {
     background-color: #282C33;
@@ -21,6 +22,8 @@
     right: 0%;
     height: 100vh;
     display: none;
+    position: fixed;
+    margin-top:5px;
   }
   .logoCont{
     @apply ml-16;

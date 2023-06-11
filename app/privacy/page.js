@@ -8,7 +8,7 @@ export default function Terms() {
     <div style={{backgroundColor:"#000F19"}}>
       <div>
         <div className={styles.conText}>
-          <h1 style={{color:"#0764E7", fontSize:"32px", marginBottom:"20px"}}>Privacy Policy</h1>
+          <h1 style={{color:"#0764E7", fontSize:"32px", marginBottom:"20px",paddingTop:"70px"}}>Privacy Policy</h1>
           <p className='text-white font-bold' style={{fontSize:"14px"}}>Updated May 2022</p>
         </div>
         <div className={styles.textBody}>
