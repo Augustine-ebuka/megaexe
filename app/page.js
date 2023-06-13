@@ -16,11 +16,22 @@ import FutureProject from '@/components/futureProject'
 import Teams from '@/components/teams'
 import Faqs from '@/components/faq'
 import ScrollToTop from "react-scroll-to-top";
+import metaImage from '@/components/metaImage'
 // import Stepper from '@/components/stepper'
 
 
 export default function Home() {
+  const URL = "https://megaexe.com/"
   return (
+    <>
+      <Head>
+        <meta property="og:image" content={ `${URL}${metaImage}`} />
+        <meta property="og:title" content="megaexe.com"/>
+        <meta property="og:description" content="Deploy your App, MVP and software products all with a unified IT pack tailored to your business."/>
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="630" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
     <main className="">
       <HeroSection></HeroSection>
       <Overview></Overview>
@@ -44,6 +55,7 @@ export default function Home() {
       {/* <ScrollableTabsButtonForce></ScrollableTabsButtonForce> */}
       <ScrollToTop smooth="true" height="20" width='20' style={{padding:"8px"}}></ScrollToTop>
       <Footer></Footer>
-    </main>
+      </main>
+      </>
   )
 }

@@ -84,11 +84,11 @@ export default function Navbar() {
         </div>
         <div className={style.navFooter}>
         <div className={style.socialIcon}>
-              <AiFillGithub size={20}></AiFillGithub>
-              <FaFacebookF size={18}></FaFacebookF>
-              <BsDiscord size={18}></BsDiscord>
-              <BsInstagram size={18}></BsInstagram>
-              <FaLinkedinIn size={18}></FaLinkedinIn>
+              <Link  href='https://github.com/megaexeglobal' target="_blank"><AiFillGithub size={20}></AiFillGithub></Link>
+              <Link  href='https://web.facebook.com/megaexeglobal/' target="_blank"><FaFacebookF size={18}></FaFacebookF></Link>
+              <Link  href='' target="_blank"><BsDiscord size={18}></BsDiscord></Link>
+              <Link  href='https://www.instagram.com/megaexeglobal/' target="_blank"><BsInstagram size={18}></BsInstagram></Link>
+              <Link  href='https://www.linkedin.com/company/megaexe/' target="_blank"><FaLinkedinIn size={18}></FaLinkedinIn></Link>   
               </div> 
         </div>
       </div>
