@@ -43,6 +43,13 @@ export default function PortCard(props) {
         }
       },
       {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,

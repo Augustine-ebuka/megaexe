@@ -16,14 +16,17 @@
     display: flex;
     justify-content:space-evenly;
     gap: 20px;
-   width: 75%;
+   width: 80%;
    margin-bottom: 70px;
    align-content: center;
    gap: 20px;
 }
 .footerWrapper{
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    font-size: 14px;
+    margin-left: 50px;
+   
 }
 .footerFirst{
     flex: 1;
@@ -38,6 +41,7 @@
     text-align: center;
     line-height: 3px;
     font-size: 8px;
+    padding: 5px;
 }
 .footerthird{
     font-size: small;
@@ -100,6 +104,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin-left: 0px;
     }
     .footerFirst{
         flex: 1;
