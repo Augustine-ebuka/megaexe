@@ -17,14 +17,14 @@
         {
             "id":3,
             "name":"Haniel Ubogu",
-            "description":"Front End Software Engineer - Passionate about research",
+            "description":"Full Stack Engineer Software Engineer - Passionate about research",
             "linkedin":"https://www.linkedin.com/in/hanielu/",
             "image":"/HANIEL.jpg"
         },
         {
             "id":4,
             "name":"Joshua Olosho",
-            "description":"Back End Engineer - Passionate about transforming Businesses",
+            "description":"Solution Architect Engineer - Passionate about transforming Businesses",
             "linkedin":"https://www.linkedin.com/in/joshua-damilare-4a791018a/",
             "image":"/JOSHUA.jpg"
         },
@@ -38,7 +38,7 @@
         {
             "id":6,
             "name":"Obetta Augustine",
-            "description":"Programmer and Blockchain Developer - Interested in AI",
+            "description":"Full Stack - Interested in AI",
             "linkedin":"https://www.linkedin.com/in/obetta-augustine-70b8501a3",
             "image":"/AUGUSTINE.jpg"
         },

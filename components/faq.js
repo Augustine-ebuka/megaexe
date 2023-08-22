@@ -10,7 +10,7 @@ export default function Faqs() {
           <div className={styles.faqContent}>
               <div className={styles.faqText}>
                   <h1>Frequently Asked Questions</h1>
-                  <p>Don’t slide though the page without check the FAQs, as this will help clear the remaining doubts you have - assuming if you have one </p>
+                  <p>Please don’t slide through the page without checking these FAQs, as this will help clear the remaining doubts you have - assuming if you have one </p>
               </div>
               <div className='flex justify-center items-center'>
                   <div className={styles.faqCarousel}>
