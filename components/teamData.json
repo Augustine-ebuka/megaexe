@@ -8,13 +8,6 @@
             "image":"/INNOCENT.jpg"
         },
         {
-            "id":2,
-            "name":"Ukonu Lucky",
-            "description":"Full Stack Engineer - Passionate about solving problems",
-            "linkedin":"https://www.linkedin.com/in/ukonu-ifeanyichukwu-lucky",
-            "image":"/LUCKY.jpg"
-        },
-        {
             "id":3,
             "name":"Haniel Ubogu",
             "description":"Full Stack Software Engineer - Passionate about research",
